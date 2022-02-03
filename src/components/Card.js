@@ -61,8 +61,8 @@ const Card = ({
 				<Rating name="read-only" value={rating} readOnly />
 			</div>
 
-			<div className="icono">
-				<Carrito onClick={handleClick} />
+			<div className="icono" onClick={handleClick}>
+				<Carrito/>
 			</div>
 
 			{/* si , mostrar modal es igual a true- quiero que esto se muestre */}
